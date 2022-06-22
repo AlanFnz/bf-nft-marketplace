@@ -17,7 +17,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -30,7 +31,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/KryptoBirdz.sol\":\"Kryptobird\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/KryptoBirdz.sol\":{\"keccak256\":\"0xe38938a73519d1a5d52481f9d7313ee266b1ff2d6f0ca11718dd8105af7fd4ff\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://54421a0553619fec2961efaaf57af0065d77067d1ae3f799423669da061b7023\",\"dweb:/ipfs/QmSe9sW157bWSuZEw2PN2Ge7KiRjJe8sudE7kQLhj9tFKW\"]}},\"version\":1}",
@@ -4411,9 +4413,17 @@
     "name": "solc",
     "version": "0.8.15+commit.e14f2714.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA3B5ae60e6E95d7c73D26Aa3861D842F042767e9",
+      "transactionHash": "0x2500916dfb51df2dea88440c01e9b88fc7376b9cecfde4a1d651edcdadd82c61"
+    }
+  },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-22T21:48:00.902Z",
+  "updatedAt": "2022-06-22T22:08:16.815Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
